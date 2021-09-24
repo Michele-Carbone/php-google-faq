@@ -1,0 +1,77 @@
+/*GENERICS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+/* UTILS*/
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+  
+.container-fluid {
+  width: 100%;
+}
+  
+body {
+  font-family: "Kurale", serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+/*Header*/
+.header-top{
+    margin: 0px 15px;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 15px 10px;
+}
+
+Header ul{
+  padding: 20px 10px;
+    
+}
+
+Header ul li{
+    margin: 0px 15px;
+    font-weight: 800;
+    font-size: 30px;
+    color: gray;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+/*Main*/
+h2, p{
+    margin: 30px 0px;
+}
+
+ol{
+    margin: 0 0 0 16px;
+    padding: 0;
+}
+
+.smANld {
+    padding-top: 12px;
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(224, 224, 224);
+    height: 50px;
+}
+
+footer li{
+    margin: 0px 15px;
+    color: rgb(131, 131, 131);
+}
+
